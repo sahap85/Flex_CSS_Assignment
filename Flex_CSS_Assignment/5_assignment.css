@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  min-width: 1024px;
+  max-height: 1100px;
+  margin: 0 auto;
+  display: flex;
+  font-family: sans-serif;
+  border: 1px solid black;
+}
+.header-left img {
+  margin: 5px;
+}
+
+.text {
+  width: 764px;
+  height: 1100px;
+  padding: 101.39px 50.69px 50.69px 50.69px;
+}
+.main-header {
+  margin-top: -3px;
+  display: inline-block;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.header-right-up {
+  margin-left: 20px;
+}
+.header-right-text {
+  margin: 27px 7px;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 7px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 4px;
+}
+.btn-white {
+  margin-left: 30px;
+  background-color: orange;
+  color: white;
+}
+.text-heading {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.text-subheading {
+  font-size: 45px;
+  padding: 4px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+main .main-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+main .sub-main-title {
+  display: flex;
+  gap: 15px;
+  font-size: 27px;
+}
+main .choose-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+main .choose-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 26px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  cursor: pointer;
+}
+main .choose-container .selected {
+  border-color: #213d77;
+  background-color: #213d77;
+  color: white;
+}
+
+main .journey-details-section-container {
+  border: 1px solid lightgray;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main .card-element {
+  display: flex;
+  align-items: center;
+}
+.card-element-image-container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+main .select-option {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+main .choose-location span {
+  font-size: 12px;
+  color: gray;
+}
+main .dropdown {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+/* search train button */
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: 700;
+  background-color: #01bb0a;
+  padding: 15px 0;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* common class */
+.green-text {
+  color: #01bb0a;
+}
+.orange-text {
+  color: #fb792b;
+}
+.blue-text {
+  color: #213d77;
+}
+.border-right-left {
+  height: 100%;
+  width: 0;
+  border-right: 1px solid lightgray;
+}
+
+.image-section {
+  width: 696px;
+  height: 1100px;
+}
+/* Rectangle 11 */

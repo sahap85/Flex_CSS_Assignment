@@ -1,0 +1,32 @@
+justify-content: Specifies how the content should be distributed along the main axis (horizontal axis for row or vertical axis for column) within the flex container.
+Values:
+flex-start: Items are packed at the start of the main axis.
+flex-end: Items are packed at the end of the main axis.
+center: Items are centered along the main axis.
+space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+space-around: Items are evenly distributed with equal space around them.
+
+
+align-items:
+ Defines how the items should be aligned along the cross axis (vertical axis for row or horizontal axis for column) within the flex container.
+
+flex-start: Items are aligned at the cross-start.
+flex-end: Items are aligned at the cross-end.
+center: Items are centered along the cross axis.
+baseline: Items are aligned based on their baseline.
+stretch: Items are stretched to fill the container.
+
+flex-direction:
+ Specifies the direction of the main axis in the flex container.
+Values:
+row: Main axis is horizontal, and items are placed in a row.
+column: Main axis is vertical, and items are placed in a column.
+row-reverse: Main axis is horizontal, but items are placed in a reverse order.
+column-reverse: Main axis is vertical, but items are placed in a reverse order.
+
+flex-wrap:
+ Defines whether the flex container should wrap the items onto multiple lines or not.
+Values:
+nowrap: All items are on one line (default).
+wrap: Items wrap onto multiple lines.
+wrap-reverse: Items wrap onto multiple lines in reverse order.
